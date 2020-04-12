@@ -53,7 +53,7 @@ public class Account {
 	public void Saldo() {
 		String Saldo;
 
-		Saldo = " \n Dados da conta: \n Account: " + acNumber + ", Titular " + userName + ", Saldo: R$ " + value;
+		Saldo = " \n Dados da conta: \n Account: " + acNumber + ", Titular: " + userName + ", Saldo: R$ " + value;
 
 		System.out.println(Saldo);
 		;
@@ -63,7 +63,7 @@ public class Account {
 		
 		return " \n Dados da conta: \n Account: " 
 		+ acNumber 
-		+ ", Titular " 
+		+ ", Titular: " 
 		+ userName 
 		+ ", Saldo: R$ " 
 		+ String.format("%.2f", value);
